@@ -236,9 +236,9 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="images\convert.png" />
-    <Content Include="images\icon.ico" />
-    <Content Include="images\settings.png" />
+    <Content Include="res\convert.png" />
+    <Content Include="res\icon.ico" />
+    <Content Include="res\settings.png" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
