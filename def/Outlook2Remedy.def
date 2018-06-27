@@ -1,0 +1,434 @@
+char-set: UTF-8
+#
+#  File exported Wed Jun 27 13:57:58 2018
+#
+begin schema
+   name           : Outlook2Remedy
+   core-version   : 2
+   upgrade-version: 0
+   num-fields     : 19
+   timestamp      : 1530044416
+   owner          : x01damste
+   last-changed   : x01damste
+   default-vui    : Default Administrator View
+   num-vuis       : 1
+   export-version : 12
+   schema-type    : 1
+   next-field-id  : 536870912
+   permission     : 0\2
+   get-list-flds  : 5\1\15\0\\7\10\0\\650000000\15\0\\8\10\0\\650000001\30\0\
+   object-prop    : 3\60039\2\1\90015\2\4\90016\4\1\1\
+vui  {
+   id             : 536870912
+   name           : Default Administrator View
+   label          : Default Administrator View
+   timestamp      : 1530044412
+   vui-locale     : 
+   vui-type       : 1
+   owner          : x01damste
+   last-changed   : x01damste
+   display-prop   : 5\20\4\26\Default Administrator View\201\2\95163\202\2\45400\206\4\14\Outlook2Remedy\207\4\14\Outlook2Remedy\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 1
+   name           : RequestID
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1530002947
+   owner          : x01damste
+   last-changed   : x01damste
+   length-units   : 0
+   maxlength      : 15
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   default        : O2R
+   permission     : 0\1
+   permission     : 3\2
+   permission     : 4\2
+ display-instance : 536870912\14\3\41\2\59617\11500\89538\13600\4\6\1\7\40\2147483640\20\4\10\Request ID\21\41\2\0\400\12485\2100\27\8\16\28\6\4\29\6\1\60\40\1\65\41\2\0\0\0\0\1&
+ display-instance : 43\40\4294967295\151\41\2\13048\0\29920\2100\170\40\0\231\6\1\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 2
+   name           : Submitter
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 1
+   timestamp      : 1530005119
+   owner          : x01damste
+   last-changed   : x01damste
+   length-units   : 0
+   maxlength      : 254
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   default        : $-1$
+   permission     : 3\1
+   permission     : 4\1
+ display-instance : 536870912\16\3\41\2\899\25500\57254\27600\4\6\1\7\40\2147483641\20\4\9\Submitter\21\41\2\0\400\12035\2100\27\8\16\28\6\4\29\6\1\60\40\1\61\40\30\65\41\2\0\0\&
+ display-instance : 0\0\66\41\2\53993\0\56355\2100\143\40\4294967295\151\41\2\12598\0\53430\2100\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 3
+   name           : Create Date
+   datatype       : 7
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1530002811
+   owner          : x01damste
+   last-changed   : x01damste
+   permission     : 3\1
+   permission     : 4\1
+ display-instance : 536870912\17\3\41\2\59617\1500\92462\3600\4\6\1\7\40\2147483642\20\4\11\Create Date\21\41\2\0\400\12485\2100\22\4\6\Detail\27\8\16\28\6\4\29\6\1\60\40\1\61\4&
+ display-instance : 0\23\65\41\2\0\0\0\0\66\41\2\30483\0\32845\2100\143\40\4294967295\151\41\2\13048\0\29920\2100\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 4
+   name           : Assigned To
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1530002811
+   owner          : x01damste
+   last-changed   : x01damste
+   length-units   : 0
+   maxlength      : 254
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   default        : $-1$
+   permission     : 4\1
+ display-instance : 536870912\17\3\41\2\59617\4000\92462\6100\4\6\1\7\40\2147483643\20\4\11\Assigned To\21\41\2\0\400\12485\2100\22\4\6\Detail\27\8\16\28\6\4\29\6\1\60\40\1\61\4&
+ display-instance : 0\30\65\41\2\0\0\0\0\66\41\2\30483\0\32845\2100\143\40\4294967295\151\41\2\13048\0\29920\2100\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 5
+   name           : Last Modified By
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1530002811
+   owner          : x01damste
+   last-changed   : x01damste
+   length-units   : 0
+   maxlength      : 254
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 4\1
+ display-instance : 536870912\17\3\41\2\59617\6500\92462\8600\4\6\1\7\40\2147483644\20\4\16\Last Modified By\21\41\2\0\400\12485\2100\22\4\6\Detail\27\8\16\28\6\4\29\6\1\60\40\1&
+ display-instance : \61\40\33\65\41\2\0\0\0\0\66\41\2\30483\0\32845\2100\143\40\4294967295\151\41\2\13048\0\29920\2100\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 6
+   name           : Modified Date
+   datatype       : 7
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1530002811
+   owner          : x01damste
+   last-changed   : x01damste
+   permission     : 4\1
+ display-instance : 536870912\17\3\41\2\59617\9000\92462\11100\4\6\1\7\40\2147483645\20\4\13\Modified Date\21\41\2\0\400\12485\2100\22\4\6\Detail\27\8\16\28\6\4\29\6\1\60\40\1\6&
+ display-instance : 1\40\23\65\41\2\0\0\0\0\66\41\2\30483\0\32845\2100\143\40\4294967295\151\41\2\13048\0\29920\2100\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 7
+   name           : Status
+   datatype       : 6
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 1
+   timestamp      : 1530006586
+   owner          : x01damste
+   last-changed   : x01damste
+   enum-value     : open
+   enum-value     : done
+   enum-value     : error
+   default        : 0
+   permission     : 3\1
+   permission     : 4\2
+ display-instance : 536870912\18\3\41\2\59617\16500\89538\18600\4\6\1\7\40\2147483646\20\4\6\Status\21\41\2\0\400\12485\2100\22\4\6\System\27\8\16\28\6\4\29\6\1\60\40\1\61\40\0\&
+ display-instance : 64\6\0\65\41\2\0\0\0\0\143\40\4294967295\151\41\2\13048\0\29920\2100\170\40\0\230\4\23\3\0\open\1\done\2\error\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 8
+   name           : EventCode
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 1
+   timestamp      : 1530005119
+   owner          : x01damste
+   last-changed   : x01damste
+   length-units   : 0
+   maxlength      : 30
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 3\1
+   permission     : 4\1
+ display-instance : 536870912\16\3\41\2\899\22900\54329\25000\4\6\1\7\40\2147483647\20\4\10\Event Code\21\41\2\0\400\12035\2100\27\8\16\28\6\4\29\6\1\60\40\1\61\40\50\65\41\2\0\&
+ display-instance : 0\0\0\66\41\2\0\0\0\0\143\40\4294967295\151\41\2\12598\0\53430\2100\170\40\0\231\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 15
+   name           : Status History
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 3
+   timestamp      : 1529789331
+   owner          : x01damste
+   last-changed   : x01damste
+   permission     : 3\1
+   permission     : 4\1
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 650000001
+   name           : EmailSubject
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 1
+   timestamp      : 1530005496
+   owner          : x01damste
+   last-changed   : x01damste
+   length-units   : 0
+   maxlength      : 4000
+   clob-store-opt : 0
+   menu-style     : 1
+   qbe-match-op   : 3
+   fulltext-optns : 0
+   permission     : 0\2
+   permission     : 3\2
+   permission     : 20000\2
+ display-instance : 536870912\28\3\41\2\899\8500\57254\10600\4\6\1\5\6\2\7\40\2147483648\14\40\1\20\4\13\Email Summary\21\41\2\0\200\12035\2100\22\4\7\Default\27\8\16\28\6\4\29\&
+ display-instance : 6\1\60\40\1\61\40\62\65\41\2\0\0\0\0\66\41\2\53993\0\56355\2100\81\4\7\Default\90\6\1\143\40\2\151\41\2\12598\0\53430\2100\170\40\0\228\40\1\231\6\2\240&
+ display-instance : \40\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 650000002
+   name           : EmailBody
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1530005496
+   owner          : x01damste
+   last-changed   : x01damste
+   length-units   : 0
+   maxlength      : 0
+   clob-store-opt : 0
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\2
+   permission     : 3\2
+   permission     : 20000\2
+ display-instance : 536870912\26\3\41\2\899\11100\57254\14500\4\6\1\5\6\2\7\40\2147483649\14\40\1\20\4\10\Email Body\21\41\2\0\400\12035\3000\22\4\7\Default\27\8\16\28\6\4\29\6\&
+ display-instance : 1\60\40\2\61\40\62\65\41\2\0\0\0\0\66\41\2\53993\0\56355\2100\90\6\1\143\40\3\151\41\2\12598\0\53430\3400\170\40\0\228\40\1\231\6\0\288\6\0\289\4\4\0x00&
+ display-instance : \290\4\4\0x00\310\6\0\5116\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 650000003
+   name           : EmailAttachment
+   datatype       : 37
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 4
+   timestamp      : 1530005119
+   owner          : x01damste
+   last-changed   : x01damste
+   permission     : 0\1
+ display-instance : 536870912\24\1\6\2\3\41\2\13498\15000\54330\22400\4\6\1\5\6\2\7\40\2147483650\9\6\4\14\40\1\20\4\10\Attachment\21\41\2\0\0\0\0\41\40\2\65\41\2\0\0\0\0\66\41\&
+ display-instance : 2\0\0\0\0\143\40\4294967295\151\41\2\6187\0\36674\0\170\40\0\232\4\3\Add\233\4\6\Delete\234\4\7\Display\235\4\12\Save to Disk\236\4\12\Attach Label\237\&
+ display-instance : 4\9\File Name\238\4\8\Max Size\271\4\8\Deselect\310\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 650000004
+   name           : EML
+   datatype       : 11
+   fieldtype      : 1
+   create-mode    : 2
+   option         : 2
+   timestamp      : 1529789672
+   owner          : x01damste
+   last-changed   : x01damste
+   maxsize        : 0
+   attachtype     : 1
+   fulltext-optns : 0
+   permission     : 0\2
+   permission     : 3\2
+ display-instance : 536870912\5\3\41\2\0\0\0\0\4\6\1\20\4\3\EML\143\40\1\170\40\650000003\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 650000000
+   name           : WorkflowRequestID
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1530002947
+   owner          : x01damste
+   last-changed   : x01damste
+   length-units   : 0
+   maxlength      : 15
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 3\1
+   permission     : 4\1
+ display-instance : 536870912\24\3\41\2\59617\14000\89538\16100\4\6\1\5\6\2\7\40\2147483651\14\40\1\20\4\19\Workflow Request ID\21\41\2\0\400\12485\2100\22\4\6\System\27\8\16\28&
+ display-instance : \6\4\29\6\1\60\40\1\61\40\50\65\41\2\0\0\0\0\66\41\2\0\0\0\0\143\40\4294967295\151\41\2\13048\0\29920\2100\170\40\0\231\6\0\288\6\0\289\4\4\0x00\290\4\4&
+ display-instance : \0x00\310\6\0\5116\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 650000005
+   name           : RelatedTicketID
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1530005119
+   owner          : x01damste
+   last-changed   : x01damste
+   length-units   : 0
+   maxlength      : 15
+   clob-store-opt : 0
+   menu-style     : 2
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 4\1
+   permission     : 3\1
+ display-instance : 536870912\23\3\41\2\899\28100\54329\30200\4\6\1\5\6\2\7\40\2147483652\14\40\1\20\4\17\Related Ticket ID\21\41\2\0\400\12035\2100\27\8\16\28\6\4\29\6\1\60\40\&
+ display-instance : 1\61\40\50\65\41\2\0\0\0\0\66\41\2\0\0\0\0\143\40\4294967295\151\41\2\12598\0\53430\2100\170\40\0\231\6\0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116&
+ display-instance : \6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 650000007
+   name           : Log
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1530003325
+   owner          : x01damste
+   last-changed   : x01damste
+   length-units   : 0
+   maxlength      : 0
+   clob-store-opt : 0
+   menu-style     : 1
+   qbe-match-op   : 1
+   fulltext-optns : 0
+   permission     : 0\2
+   permission     : 3\2
+   permission     : 20000\2
+ display-instance : 536870912\26\3\41\2\59617\19000\92462\22400\4\6\1\5\6\2\7\40\2147483653\14\40\1\20\4\3\Log\21\41\2\0\400\12485\3000\22\4\6\System\27\8\16\28\6\4\29\6\1\60\40&
+ display-instance : \2\61\40\62\65\41\2\0\0\0\0\66\41\2\30483\0\32845\2100\90\6\1\143\40\3\151\41\2\13048\0\29920\3400\170\40\0\228\40\1\231\6\0\288\6\0\289\4\4\0x00\290\4\&
+ display-instance : 4\0x00\310\6\0\5116\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 650000010
+   name           : EmailFrom
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 1
+   timestamp      : 1530005136
+   owner          : x01damste
+   last-changed   : x01damste
+   length-units   : 0
+   maxlength      : 1000
+   clob-store-opt : 0
+   menu-style     : 1
+   qbe-match-op   : 3
+   fulltext-optns : 0
+   permission     : 0\2
+   permission     : 3\2
+   permission     : 20000\2
+ display-instance : 536870912\28\3\41\2\899\700\57254\2800\4\6\1\5\6\2\7\40\2147483654\14\40\1\20\4\10\Email From\21\41\2\0\200\12035\2100\22\4\8\Required\27\8\16\28\6\4\29\6\1\&
+ display-instance : 60\40\1\61\40\62\65\41\2\0\0\0\0\66\41\2\53993\0\56355\2100\81\4\7\Default\90\6\1\143\40\2\151\41\2\12598\0\53430\2100\170\40\0\228\40\1\231\6\2\240\40\&
+ display-instance : 0\288\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 650000011
+   name           : EmailTO
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1530005496
+   owner          : x01damste
+   last-changed   : x01damste
+   length-units   : 0
+   maxlength      : 4000
+   clob-store-opt : 0
+   menu-style     : 1
+   qbe-match-op   : 3
+   fulltext-optns : 0
+   permission     : 0\2
+   permission     : 3\2
+   permission     : 20000\2
+ display-instance : 536870912\28\3\41\2\899\3300\57254\5400\4\6\1\5\6\2\7\40\2147483655\14\40\1\20\4\8\Email TO\21\41\2\0\200\12035\2100\22\4\7\Default\27\8\16\28\6\4\29\6\1\60\&
+ display-instance : 40\1\61\40\62\65\41\2\0\0\0\0\66\41\2\53993\0\56355\2100\81\4\7\Default\90\6\1\143\40\2\151\41\2\12598\0\53430\2100\170\40\0\228\40\1\231\6\2\240\40\0\2&
+ display-instance : 88\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+field {
+   id             : 650000012
+   name           : EmailCC
+   datatype       : 4
+   fieldtype      : 1
+   create-mode    : 1
+   option         : 2
+   timestamp      : 1530005496
+   owner          : x01damste
+   last-changed   : x01damste
+   length-units   : 0
+   maxlength      : 4000
+   clob-store-opt : 0
+   menu-style     : 1
+   qbe-match-op   : 3
+   fulltext-optns : 0
+   permission     : 0\2
+   permission     : 3\2
+   permission     : 20000\2
+ display-instance : 536870912\28\3\41\2\899\5900\57254\8000\4\6\1\5\6\2\7\40\2147483656\14\40\1\20\4\8\Email CC\21\41\2\0\200\12035\2100\22\4\7\Default\27\8\16\28\6\4\29\6\1\60\&
+ display-instance : 40\1\61\40\62\65\41\2\0\0\0\0\66\41\2\53993\0\56355\2100\81\4\7\Default\90\6\1\143\40\2\151\41\2\12598\0\53430\2100\170\40\0\228\40\1\231\6\2\240\40\0\2&
+ display-instance : 88\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+end

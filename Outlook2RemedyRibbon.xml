@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab idMso="TabAddIns" label="Remedy">
+        <group id="ContentGroup" label="Remedy Addin">
+          <button id="convertButton" label="Convert Email2Ticket"
+               screentip="Text" onAction="OnConvertButton"
+               supertip="Convert selected email message into a Remedy ticket"
+               getImage="GetImage" size="large" />
+          <separator id="separator" />
+          <button id="configButton" label="Conversion Settings"
+               screentip="Text" onAction="OnConfigButton"
+               supertip="Configure email conversion process into a BMC Remedy ticket"
+               getImage="GetImage" size="large" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+
