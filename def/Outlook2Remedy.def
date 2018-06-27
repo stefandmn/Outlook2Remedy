@@ -1,6 +1,6 @@
 char-set: UTF-8
 #
-#  File exported Wed Jun 27 13:57:58 2018
+#  File exported Wed Jun 27 14:05:03 2018
 #
 begin schema
    name           : Outlook2Remedy
@@ -430,5 +430,320 @@ field {
  display-instance : 40\1\61\40\62\65\41\2\0\0\0\0\66\41\2\53993\0\56355\2100\81\4\7\Default\90\6\1\143\40\2\151\41\2\12598\0\53430\2100\170\40\0\228\40\1\231\6\2\240\40\0\2&
  display-instance : 88\6\0\289\4\4\0x00\290\4\4\0x00\310\6\0\5116\6\0\
    object-prop    : 2\90016\4\1\1\90015\2\4\
+}
+end
+char-set: UTF-8
+#
+#  File exported Wed Jun 27 14:05:18 2018
+#
+begin container
+   name           : Outlook2Remedy
+   type           : 5
+   num-references : 16
+   timestamp      : 1530044449
+   owner          : x01damste
+   owning-obj     : 1\2\14\Outlook2Remedy\
+   last-changed   : x01damste
+   export-version : 12
+   permission     : 0\2
+   object-prop    : 3\60039\2\1\90015\2\4\90016\4\1\1\
+reference {
+   type           : 32797
+   datatype       : 1
+   value          : 4\168\<?xml version="1.0"?><portProperties name="Port"><portType name=""/><xmlSchemaSource name="embedded"/><externalSchema name=""/><portName name="Po
+   value          : rt"/></portProperties>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32798
+   datatype       : 1
+   value          : 4\444\<?xml version="1.0" encoding="UTF-8"?><operation name="Create" type="create">    <arOptions>        <setOptions>            <type>setFirst</ty
+   value          : pe>            <documentType>full</documentType>        </setOptions>    </arOptions>    <inputMapping name="InputMapping1" namespace="Outlook2Remed
+   value          : y" topLevelElement="Create"/>    <outputMapping name="OutputMapping1" namespace="Outlook2Remedy" topLevelElement="CreateResponse"/></operation>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32828
+   datatype       : 1
+   value          : 4\0\\
+   ref-groups     : 0
+}
+reference {
+   type           : 32843
+   datatype       : 1
+   value          : 0\
+   ref-groups     : 0
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\1537\<?xml version="1.0" encoding="UTF-8"?><arDocMapping arDocVersion="11" externalSchema=""    generateXsiType="false" name="OutputMapping1" schema
+   value          : Source="generated">    <formMapping>        <form distinguishingKeyId="1" foreignKeyId="1"            formName="Outlook2Remedy" primaryKeyId="1"/>  
+   value          :       <element all="false" dataType="ROOT" default="" maxOccurs="1"            minOccurs="1" name="ROOT" targetNamespace="urn:Outlook2Remedy">        
+   value          :     <element dataType="string" default="O2R" maxOccurs="1"                minOccurs="0" name="RID" nillable="false" xmlType="false">                <f
+   value          : ieldMapping arFieldId="1" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" default="" maxOccurs="1" 
+   value          :                minOccurs="1" name="WID" nillable="true" xmlType="false">                <fieldMapping arFieldId="650000000" arFieldPart="" defaultAttac
+   value          : hName=""/>            </element>            <element dataType="string" default="open"                enumValues="open,done,error" maxOccurs="1" minOc
+   value          : curs="1"                name="STS" nillable="false" xmlType="false">                <fieldMapping arFieldId="7" arFieldPart="" defaultAttachName=""/>
+   value          :             </element>            <element dataType="string" default="" maxOccurs="1"                minOccurs="1" name="LOG" nillable="true" xmlType=
+   value          : "false">                <fieldMapping arFieldId="650000007" arFieldPart="" defaultAttachName=""/>            </element>        </element>    </formM
+   value          : apping></arDocMapping>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\4286\<?xml version="1.0" encoding="UTF-8"?><arDocMapping arDocVersion="11" externalSchema=""    generateXsiType="false" name="OutputMapping2" schema
+   value          : Source="generated">    <formMapping>        <form distinguishingKeyId="1" foreignKeyId="1"            formName="Outlook2Remedy" primaryKeyId="1"/>  
+   value          :       <element all="false" dataType="ROOT" default="" maxOccurs="1"            minOccurs="1" name="ROOT" targetNamespace="urn:Outlook2Remedy">        
+   value          :     <element dataType="string" default="" maxOccurs="1"                minOccurs="1" name="Request_ID" nillable="false" xmlType="false">              
+   value          :   <fieldMapping arFieldId="1" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" default="$USER$" maxOc
+   value          : curs="1"                minOccurs="1" name="Submitter" nillable="false" xmlType="false">                <fieldMapping arFieldId="2" arFieldPart="" def
+   value          : aultAttachName=""/>            </element>            <element dataType="dateTime" default="" maxOccurs="1"                minOccurs="0" name="Create_
+   value          : Date" nillable="false" xmlType="false">                <fieldMapping arFieldId="3" arFieldPart="" defaultAttachName=""/>            </element>       
+   value          :      <element dataType="string" default="$USER$" maxOccurs="1"                minOccurs="0" name="Assigned_To" nillable="false" xmlType="false">      
+   value          :           <fieldMapping arFieldId="4" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" default="" max
+   value          : Occurs="1"                minOccurs="0" name="Last_Modified_By" nillable="false" xmlType="false">                <fieldMapping arFieldId="5" arFieldPa
+   value          : rt="" defaultAttachName=""/>            </element>            <element dataType="dateTime" default="" maxOccurs="1"                minOccurs="0" name
+   value          : ="Modified_Date" nillable="false" xmlType="false">                <fieldMapping arFieldId="6" arFieldPart="" defaultAttachName=""/>            </eleme
+   value          : nt>            <element dataType="string" default="Open"                enumValues="Open,Closed" maxOccurs="1" minOccurs="1"                name="Sta
+   value          : tus" nillable="false" xmlType="false">                <fieldMapping arFieldId="7" arFieldPart="" defaultAttachName=""/>            </element>        
+   value          :     <element dataType="string" default="" maxOccurs="1"                minOccurs="1" name="EventCode" nillable="false" xmlType="false">               
+   value          :  <fieldMapping arFieldId="8" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" default="" maxOccurs="1
+   value          : "                minOccurs="0" name="Status_History" nillable="false" xmlType="false">                <fieldMapping arFieldId="15" arFieldPart="" defa
+   value          : ultAttachName=""/>            </element>            <element dataType="string" default="" maxOccurs="1"                minOccurs="1" name="Subject" n
+   value          : illable="false" xmlType="false">                <fieldMapping arFieldId="650000001" arFieldPart="" defaultAttachName=""/>            </element>      
+   value          :       <element dataType="string" default="" maxOccurs="1"                minOccurs="0" name="Body" nillable="false" xmlType="false">                <f
+   value          : ieldMapping arFieldId="650000002" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" default="" maxOccu
+   value          : rs="1"                minOccurs="0" name="EML_attachmentName" nillable="false" xmlType="false">                <fieldMapping arFieldId="650000004"   
+   value          :                  arFieldPart="attachmentName" defaultAttachName=""/>            </element>            <element dataType="base64Binary" default="" maxO
+   value          : ccurs="1"                minOccurs="0" name="EML_attachmentData" nillable="false" xmlType="false">                <fieldMapping arFieldId="650000004"
+   value          :                     arFieldPart="attachmentData" defaultAttachName="EML_attachmentData.txt"/>            </element>            <element dataType="int"
+   value          :  default="" maxOccurs="1"                minOccurs="0" name="EML_attachmentOrigSize"                nillable="false" xmlType="false">                
+   value          : <fieldMapping arFieldId="650000004"                    arFieldPart="attachmentOrigSize" defaultAttachName=""/>            </element>        </element
+   value          : >    </formMapping></arDocMapping>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\638\<?xml version="1.0" encoding="UTF-8"?><arDocMapping arDocVersion="11" externalSchema=""    generateXsiType="false" name="OutputMapping3" schemaS
+   value          : ource="generated">    <formMapping>        <form distinguishingKeyId="-2147483647" foreignKeyId="1"            formName="" primaryKeyId="1"/>       
+   value          :  <element all="false" dataType="ROOT" default="" maxOccurs="1"            minOccurs="1" name="ROOT" targetNamespace="urn:Outlook2Remedy">            <
+   value          : element dataType="string" default="" maxOccurs="1"                minOccurs="1" name="Request_ID" nillable="false" xmlType="false"/>        </element>
+   value          :     </formMapping></arDocMapping>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\4281\<?xml version="1.0" encoding="UTF-8"?><arDocMapping arDocVersion="11" externalSchema=""    generateXsiType="false" name="OutputMapping4" schema
+   value          : Source="generated">    <formMapping>        <form distinguishingKeyId="1" foreignKeyId="1"            formName="Outlook2Remedy" primaryKeyId="1"/>  
+   value          :       <element all="false" dataType="ROOT" default="" maxOccurs="1"            minOccurs="1" name="ROOT" targetNamespace="urn:Outlook2Remedy">        
+   value          :     <element dataType="string" default="" maxOccurs="1"                minOccurs="0" name="Request_ID" nillable="false" xmlType="false">              
+   value          :   <fieldMapping arFieldId="1" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" default="$USER$" maxOc
+   value          : curs="1"                minOccurs="0" name="Submitter" nillable="false" xmlType="false">                <fieldMapping arFieldId="2" arFieldPart="" def
+   value          : aultAttachName=""/>            </element>            <element dataType="dateTime" default="" maxOccurs="1"                minOccurs="0" name="Create_
+   value          : Date" nillable="false" xmlType="false">                <fieldMapping arFieldId="3" arFieldPart="" defaultAttachName=""/>            </element>       
+   value          :      <element dataType="string" default="$USER$" maxOccurs="1"                minOccurs="0" name="Assigned_To" nillable="false" xmlType="false">      
+   value          :           <fieldMapping arFieldId="4" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" default="" max
+   value          : Occurs="1"                minOccurs="0" name="Last_Modified_By" nillable="false" xmlType="false">                <fieldMapping arFieldId="5" arFieldPa
+   value          : rt="" defaultAttachName=""/>            </element>            <element dataType="dateTime" default="" maxOccurs="1"                minOccurs="0" name
+   value          : ="Modified_Date" nillable="false" xmlType="false">                <fieldMapping arFieldId="6" arFieldPart="" defaultAttachName=""/>            </eleme
+   value          : nt>            <element dataType="string" default=""                enumValues="Open,Closed" maxOccurs="1" minOccurs="0"                name="Status"
+   value          :  nillable="true" xmlType="false">                <fieldMapping arFieldId="7" arFieldPart="" defaultAttachName=""/>            </element>            <
+   value          : element dataType="string" default="" maxOccurs="1"                minOccurs="0" name="EventCode" nillable="false" xmlType="false">                <fie
+   value          : ldMapping arFieldId="8" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" default="" maxOccurs="1"   
+   value          :              minOccurs="0" name="Status_History" nillable="false" xmlType="false">                <fieldMapping arFieldId="15" arFieldPart="" defaultAt
+   value          : tachName=""/>            </element>            <element dataType="string" default="" maxOccurs="1"                minOccurs="0" name="Subject" nillab
+   value          : le="false" xmlType="false">                <fieldMapping arFieldId="650000001" arFieldPart="" defaultAttachName=""/>            </element>           
+   value          :  <element dataType="string" default="" maxOccurs="1"                minOccurs="0" name="Body" nillable="false" xmlType="false">                <fieldM
+   value          : apping arFieldId="650000002" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" default="" maxOccurs="1
+   value          : "                minOccurs="0" name="EML_attachmentName" nillable="false" xmlType="false">                <fieldMapping arFieldId="650000004"        
+   value          :             arFieldPart="attachmentName" defaultAttachName=""/>            </element>            <element dataType="base64Binary" default="" maxOccurs
+   value          : ="1"                minOccurs="0" name="EML_attachmentData" nillable="false" xmlType="false">                <fieldMapping arFieldId="650000004"     
+   value          :                arFieldPart="attachmentData" defaultAttachName="EML_attachmentData.txt"/>            </element>            <element dataType="int" defa
+   value          : ult="" maxOccurs="1"                minOccurs="0" name="EML_attachmentOrigSize"                nillable="false" xmlType="false">                <fiel
+   value          : dMapping arFieldId="650000004"                    arFieldPart="attachmentOrigSize" defaultAttachName=""/>            </element>        </element>   
+   value          :  </formMapping></arDocMapping>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\3006\<?xml version="1.0" encoding="UTF-8"?><arDocMapping arDocVersion="11" externalSchema=""    generateXsiType="false" name="InputMapping4" schemaS
+   value          : ource="generated">    <formMapping>        <form distinguishingKeyId="1" foreignKeyId="1"            formName="Outlook2Remedy" primaryKeyId="1"/>   
+   value          :      <element all="false" dataType="ROOT" default="" maxOccurs="1"            minOccurs="1" name="ROOT" targetNamespace="urn:Outlook2Remedy">         
+   value          :    <element dataType="string" default="$USER$" maxOccurs="1"                minOccurs="0" name="Submitter" nillable="false" xmlType="false">          
+   value          :       <fieldMapping arFieldId="2" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" default="$USER$" m
+   value          : axOccurs="1"                minOccurs="0" name="Assigned_To" nillable="false" xmlType="false">                <fieldMapping arFieldId="4" arFieldPart=
+   value          : "" defaultAttachName=""/>            </element>            <element dataType="string" default=""                enumValues="Open,Closed" maxOccurs="1
+   value          : " minOccurs="0"                name="Status" nillable="true" xmlType="false">                <fieldMapping arFieldId="7" arFieldPart="" defaultAttachN
+   value          : ame=""/>            </element>            <element dataType="string" default="" maxOccurs="1"                minOccurs="0" name="EventCode" nillable=
+   value          : "false" xmlType="false">                <fieldMapping arFieldId="8" arFieldPart="" defaultAttachName=""/>            </element>            <element d
+   value          : ataType="string" default="" maxOccurs="1"                minOccurs="0" name="Subject" nillable="false" xmlType="false">                <fieldMapping a
+   value          : rFieldId="650000001" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" default="" maxOccurs="1"      
+   value          :           minOccurs="0" name="Body" nillable="false" xmlType="false">                <fieldMapping arFieldId="650000002" arFieldPart="" defaultAttachNa
+   value          : me=""/>            </element>            <element dataType="string" default="" maxOccurs="1"                minOccurs="0" name="EML_attachmentName" n
+   value          : illable="false" xmlType="false">                <fieldMapping arFieldId="650000004"                    arFieldPart="attachmentName" defaultAttachName=
+   value          : ""/>            </element>            <element dataType="base64Binary" default="" maxOccurs="1"                minOccurs="0" name="EML_attachmentData
+   value          : " nillable="false" xmlType="false">                <fieldMapping arFieldId="650000004"                    arFieldPart="attachmentData" defaultAttachNa
+   value          : me="EML_attachmentData.txt"/>            </element>            <element dataType="int" default="" maxOccurs="1"                minOccurs="0" name="EM
+   value          : L_attachmentOrigSize"                nillable="false" xmlType="false">                <fieldMapping arFieldId="650000004"                    arFieldP
+   value          : art="attachmentOrigSize" defaultAttachName=""/>            </element>        </element>    </formMapping></arDocMapping>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\911\<?xml version="1.0" encoding="UTF-8"?><arDocMapping arDocVersion="11" externalSchema=""    generateXsiType="false" name="InputMapping5" schemaSo
+   value          : urce="generated">    <formMapping>        <form distinguishingKeyId="0" foreignKeyId="1" formName="" primaryKeyId="1"/>        <element all="false" d
+   value          : ataType="ROOT" default="" maxOccurs="1"            minOccurs="1" name="ROOT" targetNamespace="urn:Outlook2Remedy">            <element dataType="strin
+   value          : g" default="" maxOccurs="1"                minOccurs="1" name="Qualification" nillable="false" xmlType="false"/>            <element dataType="string"
+   value          :  default="" maxOccurs="1"                minOccurs="1" name="startRecord" nillable="false" xmlType="false"/>            <element dataType="string" def
+   value          : ault="" maxOccurs="1"                minOccurs="1" name="maxLimit" nillable="false" xmlType="false"/>        </element>    </formMapping></arDocMapp
+   value          : ing>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\3501\<?xml version="1.0" encoding="UTF-8"?><arDocMapping arDocVersion="11" externalSchema=""    generateXsiType="false" name="InputMapping1" schemaS
+   value          : ource="generated">    <formMapping>        <form distinguishingKeyId="1" foreignKeyId="1"            formName="Outlook2Remedy" primaryKeyId="1"/>   
+   value          :      <element all="false" dataType="ROOT" default="" maxOccurs="1"            minOccurs="1" name="ROOT" targetNamespace="urn:Outlook2Remedy">         
+   value          :    <element dataType="string" default="$USER$" maxOccurs="1"                minOccurs="1" name="Submitter" nillable="false" xmlType="false">          
+   value          :       <fieldMapping arFieldId="2" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" default="" maxOccu
+   value          : rs="1"                minOccurs="1" name="EventCode" nillable="false" xmlType="false">                <fieldMapping arFieldId="8" arFieldPart="" defau
+   value          : ltAttachName=""/>            </element>            <element dataType="string" default="" maxOccurs="1"                minOccurs="1" name="EmailSubjec
+   value          : t" nillable="false" xmlType="false">                <fieldMapping arFieldId="650000001" arFieldPart="" defaultAttachName=""/>            </element>  
+   value          :           <element dataType="string" default="" maxOccurs="1"                minOccurs="0" name="EmailBody" nillable="true" xmlType="false">          
+   value          :       <fieldMapping arFieldId="650000002" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" default=""
+   value          :  maxOccurs="1"                minOccurs="0" name="EML_attachmentName" nillable="false" xmlType="false">                <fieldMapping arFieldId="650000
+   value          : 004"                    arFieldPart="attachmentName" defaultAttachName=""/>            </element>            <element dataType="base64Binary" default
+   value          : ="" maxOccurs="1"                minOccurs="0" name="EML_attachmentData" nillable="false" xmlType="false">                <fieldMapping arFieldId="650
+   value          : 000004"                    arFieldPart="attachmentData" defaultAttachName="EML_attachmentData.txt"/>            </element>            <element dataTy
+   value          : pe="int" default="" maxOccurs="1"                minOccurs="0" name="EML_attachmentOrigSize"                nillable="false" xmlType="false">        
+   value          :         <fieldMapping arFieldId="650000004"                    arFieldPart="attachmentOrigSize" defaultAttachName=""/>            </element>         
+   value          :    <element dataType="string" default="" maxOccurs="1"                minOccurs="0" name="RelatedTicketID" nillable="true" xmlType="false">           
+   value          :      <fieldMapping arFieldId="650000005" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" default="" 
+   value          : maxOccurs="1"                minOccurs="1" name="EmailFrom" nillable="false" xmlType="false">                <fieldMapping arFieldId="650000010" arFie
+   value          : ldPart="" defaultAttachName=""/>            </element>            <element dataType="string" default="" maxOccurs="1"                minOccurs="0" na
+   value          : me="EmailTO" nillable="true" xmlType="false">                <fieldMapping arFieldId="650000011" arFieldPart="" defaultAttachName=""/>            </el
+   value          : ement>            <element dataType="string" default="" maxOccurs="1"                minOccurs="0" name="EmailCC" nillable="true" xmlType="false">   
+   value          :              <fieldMapping arFieldId="650000012" arFieldPart="" defaultAttachName=""/>            </element>        </element>    </formMapping></ar
+   value          : DocMapping>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\637\<?xml version="1.0" encoding="UTF-8"?><arDocMapping arDocVersion="11" externalSchema=""    generateXsiType="false" name="InputMapping2" schemaSo
+   value          : urce="generated">    <formMapping>        <form distinguishingKeyId="-2147483647" foreignKeyId="1"            formName="" primaryKeyId="1"/>        
+   value          : <element all="false" dataType="ROOT" default="" maxOccurs="1"            minOccurs="1" name="ROOT" targetNamespace="urn:Outlook2Remedy">            <e
+   value          : lement dataType="string" default="" maxOccurs="1"                minOccurs="1" name="Request_ID" nillable="false" xmlType="false"/>        </element>
+   value          :     </formMapping></arDocMapping>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\3153\<?xml version="1.0" encoding="UTF-8"?><arDocMapping arDocVersion="11" externalSchema=""    generateXsiType="false" name="InputMapping3" schemaS
+   value          : ource="generated">    <formMapping>        <form distinguishingKeyId="1" foreignKeyId="1"            formName="Outlook2Remedy" primaryKeyId="1"/>   
+   value          :      <element all="false" dataType="ROOT" default="" maxOccurs="1"            minOccurs="1" name="ROOT" targetNamespace="urn:Outlook2Remedy">         
+   value          :    <element dataType="string" default="$USER$" maxOccurs="1"                minOccurs="0" name="Submitter" nillable="false" xmlType="false">          
+   value          :       <fieldMapping arFieldId="2" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" default="$USER$" m
+   value          : axOccurs="1"                minOccurs="0" name="Assigned_To" nillable="false" xmlType="false">                <fieldMapping arFieldId="4" arFieldPart=
+   value          : "" defaultAttachName=""/>            </element>            <element dataType="string" default=""                enumValues="Open,Closed" maxOccurs="1
+   value          : " minOccurs="0"                name="Status" nillable="true" xmlType="false">                <fieldMapping arFieldId="7" arFieldPart="" defaultAttachN
+   value          : ame=""/>            </element>            <element dataType="string" default="" maxOccurs="1"                minOccurs="0" name="EventCode" nillable=
+   value          : "false" xmlType="false">                <fieldMapping arFieldId="8" arFieldPart="" defaultAttachName=""/>            </element>            <element d
+   value          : ataType="string" default="" maxOccurs="1"                minOccurs="0" name="Subject" nillable="false" xmlType="false">                <fieldMapping a
+   value          : rFieldId="650000001" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" default="" maxOccurs="1"      
+   value          :           minOccurs="0" name="Body" nillable="false" xmlType="false">                <fieldMapping arFieldId="650000002" arFieldPart="" defaultAttachNa
+   value          : me=""/>            </element>            <element dataType="string" default="" maxOccurs="1"                minOccurs="0" name="EML_attachmentName" n
+   value          : illable="false" xmlType="false">                <fieldMapping arFieldId="650000004"                    arFieldPart="attachmentName" defaultAttachName=
+   value          : ""/>            </element>            <element dataType="base64Binary" default="" maxOccurs="1"                minOccurs="0" name="EML_attachmentData
+   value          : " nillable="false" xmlType="false">                <fieldMapping arFieldId="650000004"                    arFieldPart="attachmentData" defaultAttachNa
+   value          : me="EML_attachmentData.txt"/>            </element>            <element dataType="int" default="" maxOccurs="1"                minOccurs="0" name="EM
+   value          : L_attachmentOrigSize"                nillable="false" xmlType="false">                <fieldMapping arFieldId="650000004"                    arFieldP
+   value          : art="attachmentOrigSize" defaultAttachName=""/>            </element>            <element dataType="string" default="" maxOccurs="1"                m
+   value          : inOccurs="1" name="Request_ID" nillable="false" xmlType="false"/>        </element>    </formMapping></arDocMapping>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\4782\<?xml version="1.0" encoding="UTF-8"?><arDocMapping arDocVersion="11" externalSchema=""    generateXsiType="false" name="OutputMapping5" schema
+   value          : Source="generated">    <element all="false" dataType="ROOT" default="" maxOccurs="1"        minOccurs="1" name="ROOT" targetNamespace="urn:Outlook2Rem
+   value          : edy">        <formMapping>            <form distinguishingKeyId="1" foreignKeyId="1"                formName="Outlook2Remedy" primaryKeyId="1"/>    
+   value          :         <element all="" dataType="" default="" maxOccurs="unbounded"                minOccurs="1" name="getListValues">                <element dataTy
+   value          : pe="string" default="" maxOccurs="1"                    minOccurs="1" name="Request_ID" nillable="false" xmlType="false">                    <fieldMap
+   value          : ping arFieldId="1" arFieldPart="" defaultAttachName=""/>                </element>                <element dataType="string" default="$USER$"        
+   value          :             maxOccurs="1" minOccurs="1" name="Submitter"                    nillable="false" xmlType="false">                    <fieldMapping arField
+   value          : Id="2" arFieldPart="" defaultAttachName=""/>                </element>                <element dataType="dateTime" default="" maxOccurs="1"          
+   value          :           minOccurs="0" name="Create_Date" nillable="false" xmlType="false">                    <fieldMapping arFieldId="3" arFieldPart="" defaultAttac
+   value          : hName=""/>                </element>                <element dataType="string" default="$USER$"                    maxOccurs="1" minOccurs="0" name="
+   value          : Assigned_To"                    nillable="false" xmlType="false">                    <fieldMapping arFieldId="4" arFieldPart="" defaultAttachName=""/>
+   value          :                 </element>                <element dataType="string" default="" maxOccurs="1"                    minOccurs="0" name="Last_Modified_By
+   value          : "                    nillable="false" xmlType="false">                    <fieldMapping arFieldId="5" arFieldPart="" defaultAttachName=""/>          
+   value          :       </element>                <element dataType="dateTime" default="" maxOccurs="1"                    minOccurs="0" name="Modified_Date" nillable="
+   value          : false" xmlType="false">                    <fieldMapping arFieldId="6" arFieldPart="" defaultAttachName=""/>                </element>               
+   value          :  <element dataType="string" default="Open"                    enumValues="Open,Closed" maxOccurs="1" minOccurs="1"                    name="Status" ni
+   value          : llable="false" xmlType="false">                    <fieldMapping arFieldId="7" arFieldPart="" defaultAttachName=""/>                </element>       
+   value          :          <element dataType="string" default="" maxOccurs="1"                    minOccurs="1" name="EventCode" nillable="false" xmlType="false">      
+   value          :               <fieldMapping arFieldId="8" arFieldPart="" defaultAttachName=""/>                </element>                <element dataType="string" de
+   value          : fault="" maxOccurs="1"                    minOccurs="0" name="Status_History" nillable="false" xmlType="false">                    <fieldMapping arFie
+   value          : ldId="15" arFieldPart="" defaultAttachName=""/>                </element>                <element dataType="string" default="" maxOccurs="1"         
+   value          :            minOccurs="1" name="Subject" nillable="false" xmlType="false">                    <fieldMapping arFieldId="650000001" arFieldPart="" default
+   value          : AttachName=""/>                </element>                <element dataType="string" default="" maxOccurs="1"                    minOccurs="0" name="B
+   value          : ody" nillable="false" xmlType="false">                    <fieldMapping arFieldId="650000002" arFieldPart="" defaultAttachName=""/>                </e
+   value          : lement>                <element dataType="string" default="" maxOccurs="1"                    minOccurs="0" name="EML_attachmentName"                
+   value          :     nillable="false" xmlType="false">                    <fieldMapping arFieldId="650000004"                        arFieldPart="attachmentName" defau
+   value          : ltAttachName=""/>                </element>                <element dataType="base64Binary" default=""                    maxOccurs="1" minOccurs="0"
+   value          :                     name="EML_attachmentData" nillable="false" xmlType="false">                    <fieldMapping arFieldId="650000004"               
+   value          :          arFieldPart="attachmentData" defaultAttachName="EML_attachmentData.txt"/>                </element>                <element dataType="int" de
+   value          : fault="" maxOccurs="1"                    minOccurs="0" name="EML_attachmentOrigSize"                    nillable="false" xmlType="false">           
+   value          :          <fieldMapping arFieldId="650000004"                        arFieldPart="attachmentOrigSize" defaultAttachName=""/>                </element>
+   value          :             </element>        </formMapping>    </element></arDocMapping>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32800
+   datatype       : 1
+   value          : 4\4192\<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions targetNamespace="urn:Outlook2Remedy" xmlns:s0="urn:Outlook2Remedy" xmlns:soap="http://s
+   value          : chemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http:/
+   value          : /www.w3.org/2001/XMLSchema"> <wsdl:types>  <xsd:schema elementFormDefault="qualified" targetNamespace="urn:Outlook2Remedy">   <xsd:element name="C
+   value          : reate" type="s0:InputMapping1"/>   <xsd:complexType name="InputMapping1">    <xsd:sequence>     <xsd:element name="Submitter" type="xsd:string"/>
+   value          :      <xsd:element name="EventCode" type="xsd:string"/>     <xsd:element name="EmailSubject" type="xsd:string"/>     <xsd:element minOccurs="0" nam
+   value          : e="EmailBody" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="EML_attachmentName" type="xsd:string"/>     <xsd:element minO
+   value          : ccurs="0" name="EML_attachmentData" type="xsd:base64Binary"/>     <xsd:element minOccurs="0" name="EML_attachmentOrigSize" type="xsd:int"/>     <xsd
+   value          : :element minOccurs="0" name="RelatedTicketID" nillable="true" type="xsd:string"/>     <xsd:element name="EmailFrom" type="xsd:string"/>     <xsd:ele
+   value          : ment minOccurs="0" name="EmailTO" nillable="true" type="xsd:string"/>     <xsd:element minOccurs="0" name="EmailCC" nillable="true" type="xsd:string"/
+   value          : >    </xsd:sequence>   </xsd:complexType>   <xsd:element name="CreateResponse" type="s0:OutputMapping1"/>   <xsd:complexType name="OutputMapping
+   value          : 1">    <xsd:sequence>     <xsd:element default="O2R" minOccurs="0" name="RID" type="xsd:string"/>     <xsd:element name="WID" nillable="true" type
+   value          : ="xsd:string"/>     <xsd:element name="STS" type="s0:STSType"/>     <xsd:element name="LOG" nillable="true" type="xsd:string"/>    </xsd:sequence>
+   value          :    </xsd:complexType>   <xsd:simpleType name="STSType">    <xsd:restriction base="xsd:string">     <xsd:enumeration value="open"/>     <xsd:en
+   value          : umeration value="done"/>     <xsd:enumeration value="error"/>    </xsd:restriction>   </xsd:simpleType>   <xsd:element name="AuthenticationInfo"
+   value          :  type="s0:AuthenticationInfo"/>   <xsd:complexType name="AuthenticationInfo">    <xsd:sequence>     <xsd:element name="userName" type="xsd:string"
+   value          : />     <xsd:element name="password" type="xsd:string"/>     <xsd:element minOccurs="0" name="authentication" type="xsd:string"/>     <xsd:element 
+   value          : minOccurs="0" name="locale" type="xsd:string"/>     <xsd:element minOccurs="0" name="timeZone" type="xsd:string"/>    </xsd:sequence>   </xsd:comp
+   value          : lexType>  </xsd:schema> </wsdl:types>   <wsdl:message name="CreateSoapOut">      <wsdl:part element="s0:CreateResponse" name="parameters"> 
+   value          :      </wsdl:part>   </wsdl:message>   <wsdl:message name="ARAuthenticate">      <wsdl:part element="s0:AuthenticationInfo" name="parameters">
+   value          :       </wsdl:part>   </wsdl:message>   <wsdl:message name="CreateSoapIn">      <wsdl:part element="s0:Create" name="parameters">      </wsd
+   value          : l:part>   </wsdl:message>   <wsdl:portType name="PortPortType">      <wsdl:operation name="Create">         <wsdl:input message="s0:CreateSo
+   value          : apIn">       </wsdl:input>         <wsdl:output message="s0:CreateSoapOut">       </wsdl:output>      </wsdl:operation>   </wsdl:portType
+   value          : >   <wsdl:binding name="PortSoapBinding" type="s0:PortPortType">      <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/ht
+   value          : tp"/>      <wsdl:operation name="Create">         <soap:operation soapAction="urn:Outlook2Remedy/Create" style="document"/>         <wsdl:input
+   value          : >            <soap:header message="s0:ARAuthenticate" part="parameters" use="literal">            </soap:header>            <soap:body use="lit
+   value          : eral"/>         </wsdl:input>         <wsdl:output>            <soap:body use="literal"/>         </wsdl:output>      </wsdl:operation>
+   value          :    </wsdl:binding>   <wsdl:service name="Outlook2RemedyService">      <wsdl:port binding="s0:PortSoapBinding" name="PortSoap">         <soap:a
+   value          : ddress location="@LOCATION@"/>      </wsdl:port>   </wsdl:service></wsdl:definitions>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32802
+   datatype       : 1
+   value          : 4\77\http://spetro103135.petrom.com:8080/arsys/WSDL/public/itsmtest/Outlook2Remedy\
+   ref-groups     : 0
 }
 end
