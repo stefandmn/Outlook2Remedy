@@ -251,7 +251,7 @@
     <ManifestKeyFile>Outlook2Remedy_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>CA5EA1EF31711E62A431E10DB8DBE86E5A4E4E8F</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>CC629A6C21EECEFE8037207586DE09A17EFDC8F9</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>false</SignAssembly>
