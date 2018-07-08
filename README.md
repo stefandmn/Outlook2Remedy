@@ -70,7 +70,7 @@ In order to install **Outlook2Remedy** solution you have to run the following st
 
 ### Compatibility
 The Add-in has been tested on ***Microsoft Outlook 2013*** and ***Microsoft Outlook 2016***.
-From ***BMC Remedy** perspective there is no limitation, the conversion workflow should work 
+From ***BMC Remedy*** perspective there is no limitation, the conversion workflow should work 
 over any ***Remedy Action Request System*** version (legacy versions like 7.6.x or 8.x, or 
 latest 9.x versions).
 
