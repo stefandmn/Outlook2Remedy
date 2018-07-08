@@ -129,6 +129,8 @@ personalize the workflow for each user.
 
 ## Development
 
-> [ToDo's list](doc/ToDo.md)
-> [Definition file](def/Outlook2Remedy.def)
-> [Add-in Signing Certificate](Outlook2Remedy.pfx)
+ > [ToDo's list](doc/ToDo.md)
+ 
+ > [Definition file](def/Outlook2Remedy.def)
+ 
+ > [Add-in signing certificate](Outlook2Remedy.pfx)
