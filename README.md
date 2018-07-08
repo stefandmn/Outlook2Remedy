@@ -8,6 +8,7 @@ workflow to push data into the corresponding ticketing area (Incident Management
 Service Request Management or a custom ticketing application developed over BMC Remedy
 environment).
 
+
 ## Solution
 The architecture has two layers: 
  - Outlook addin module that will bring a dedicated area within Outlook to convert
@@ -45,6 +46,24 @@ web services.
 
 
 ## Installation
+In order to install **Outlook2Remedy** solution you have to run the following steps:
+ 1. Download the latest release archive (`Outlook2Remedy.zip` file published in _release_ area)
+    and upzip it.
+ 2. Import `Outlook2Remedy.def` definition file located in `Outlook2Remedy/def` folder using 
+    _BMC Remedy Developer Studio_; import the definitions on all servers that are part of your
+	environment (test, dev, production, etc.)
+ 3. Copy the entire `Outlook2Remedy` folder	(made by unzip) into location
+    `C:\Users\<username>\AppData\Roaming\Microsoft\AddIns`. The indicated location is per 
+	specififc Windows account, so in case you want to install the add-in for many users on 
+	the same workstation you have to copy the `Outlook2Remedy` folder in all your user profiles.
+ 4. Run through double-click `Outlook2Remedy.vsto` installation script located in 
+    `C:\Users\<username>\AppData\Roaming\Microsoft\AddIns\Outlook2Remedy` folder. The add-in is 
+	signed by a self-sign certificate, so you have to trust it and confirm it during installation.
+	In case you need to install it isolated, try to download  `Outlook2Remedy.pfx` file from 
+	source code and then to install it in the standard way (the password for private key is 
+	_Outlook2Remedy_).
+	Note: Before to run `Outlook2Remedy.vsto` installation script close all open 
+	_Microsoft Office_ applications (especially _Outlook_)
 
 
 ## Configuration
