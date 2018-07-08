@@ -129,4 +129,4 @@ personalize the workflow for each user.
 
 ## Development
 
-> [ToDo's list](doc/todo.md)
+> [ToDo's list](doc/ToDo.md)
