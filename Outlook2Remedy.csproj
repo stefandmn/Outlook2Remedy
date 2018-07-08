@@ -31,16 +31,16 @@
     <DefineConstants>VSTO40</DefineConstants>
     <IsWebBootstrapper>False</IsWebBootstrapper>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <PublishUrl>publish\</PublishUrl>
+    <PublishUrl>pub\Outlook2Remedy\</PublishUrl>
     <InstallUrl />
     <TargetCulture>en</TargetCulture>
-    <ApplicationVersion>1.1.1.4</ApplicationVersion>
+    <ApplicationVersion>1.1.2.2</ApplicationVersion>
     <AutoIncrementApplicationRevision>true</AutoIncrementApplicationRevision>
     <UpdateEnabled>true</UpdateEnabled>
     <UpdateInterval>7</UpdateInterval>
     <UpdateIntervalUnits>days</UpdateIntervalUnits>
     <ProductName>Outlook2Remedy</ProductName>
-    <PublisherName />
+    <PublisherName>Outlook2Remedy</PublisherName>
     <SupportUrl />
     <FriendlyName>Outlook2Remedy</FriendlyName>
     <OfficeApplicationDescription />
@@ -222,6 +222,7 @@
     <Compile Include="RemedyAddIn.cs">
       <SubType>Code</SubType>
     </Compile>
+    <None Include="README.md" />
     <None Include="RemedyAddIn.Designer.xml">
       <DependentUpon>RemedyAddIn.cs</DependentUpon>
     </None>
@@ -269,7 +270,7 @@
       <FlavorProperties GUID="{BAA0C2D2-18E2-41B9-852F-F413020CAA33}">
         <ProjectProperties HostName="Outlook" HostPackage="{20A848B8-E01F-4801-962E-25DB0FF57389}" OfficeVersion="14.0" VstxVersion="4.0" ApplicationType="Outlook" Language="cs" TemplatesPath="" DebugInfoExeName="#Software\Microsoft\Office\14.0\Outlook\InstallRoot\Path#outlook.exe" AddItemTemplatesGuid="{A58A78EB-1C92-4DDD-80CF-E8BD872ABFC4}" />
         <Host Name="Outlook" GeneratedCodeNamespace="OutlookTools" PublishedHash="69C324AB27932AA2FBF2B7EA72250886FF164DE6" IconIndex="0">
-          <HostItem Name="ThisAddIn" Code="RemedyAddIn.cs" CanonicalName="AddIn" PublishedHash="140DAB60BBAF805449D2A6D3FFA2C11A8E147281" CanActivate="false" IconIndex="1" Blueprint="RemedyAddIn.Designer.xml" GeneratedCode="RemedyAddIn.Designer.cs" />
+          <HostItem Name="ThisAddIn" Code="RemedyAddIn.cs" CanonicalName="AddIn" PublishedHash="D9F717DBDFDF7BDFF1209254D8CC60237A74E06C" CanActivate="false" IconIndex="1" Blueprint="RemedyAddIn.Designer.xml" GeneratedCode="RemedyAddIn.Designer.cs" />
         </Host>
       </FlavorProperties>
     </VisualStudio>
