@@ -8,6 +8,11 @@ workflow to push data into the corresponding ticketing area (Incident Management
 Service Request Management or a custom ticketing application developed over BMC Remedy
 environment).
 
+This software component is distributed in the hope that it will be useful, but WITHOUT 
+ANY WARRANTY; including but not limited to, the implied warranty of MERCHANTABILITY, 
+NONINFRINGEMENT, or FITNESS FOR A PARTICULAR PURPOSE. 
+See the GNU Lesser General Public License for more details.
+
 
 ## Solution
 The architecture has two layers: 
@@ -127,7 +132,7 @@ personalize the workflow for each user.
 	 see the URL example: `http://devremedy.company.com:8080/arsys/forms/devremedy/SRM%3ARequest/Administrator`
 
 
-## Development
+## Further Development
 
  > [ToDo's list](doc/ToDo.md)
  
@@ -135,8 +140,4 @@ personalize the workflow for each user.
  
  > [Add-in signing certificate](Outlook2Remedy.pfx)
  
- 
- 
-This software component is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; including but 
-not limited to, the implied warranty of MERCHANTABILITY, NONINFRINGEMENT, or FITNESS FOR A PARTICULAR PURPOSE. 
-See the GNU Lesser General Public License for more details.
+
