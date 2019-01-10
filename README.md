@@ -132,7 +132,7 @@ personalize the workflow for each user.
 	 see the URL example: `http://devremedy.company.com:8080/arsys/forms/devremedy/SRM%3ARequest/Administrator`
 
 
-## Further Development
+## Development
 
  > [ToDo's list](doc/ToDo.md)
  
